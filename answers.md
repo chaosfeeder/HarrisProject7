@@ -2,11 +2,18 @@
 
 ## Task 1: Git Commit History
 
-### Test 2 — List contains items
+## Git Log
 
-The Git commit history is included below.
+The following shows my three Git commits:
+
+01e2562 Add project answers and AI reflection
+3d21682 Add README and gitignore
+db691f7 Initial Flask task list app
+
 
 ### Test 3: GitHub Repository 
+
+My GitHub repository is available here:
 
 https://github.com/chaosfeeder/HarrisProject7
 
