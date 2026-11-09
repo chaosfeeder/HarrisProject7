@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Task List | My Task List{% endblock %}
+
+{% block content %}
+    <h2>Video Game Development Tasks</h2>
+
+    {% if items|length > 0 %}
+        <p>You have {{ items|length }} tasks on your list.</p>
+        <ul>
+            {% for item in items %}
+                <li>{{ item|title }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No items yet.</p>
+    {% endif %}
+{% endblock %}
